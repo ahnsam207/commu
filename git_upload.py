@@ -8,7 +8,7 @@ GITHUB_TOKEN =  st.secrets["git_token"]   # 개인 액세스 토큰 입력
 BRANCH = "main"  # 사용할 브랜치
 
 
-st.title("KB 교원학습공동체 계획서 제출")
+st.title("KB 교학공 계획서 제출")
 # 파일 업로드
 uploaded_file = st.file_uploader(" 계획서 파일을 업로드하세요")
 
